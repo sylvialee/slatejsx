@@ -5,7 +5,7 @@ import {
 	AlignCenterOutlined,
 	AlignRightOutlined,
 } from '@ant-design/icons';
-import Select from '@/components/button/select';
+import Select from '../../components/button/select';
 import { setDivider, setTextAlign } from './utils/node';
 import { useSlate } from 'slate-react';
 import React from 'react';

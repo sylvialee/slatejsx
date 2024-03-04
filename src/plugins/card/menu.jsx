@@ -7,7 +7,7 @@ import {
 	ExclamationCircleOutlined,
 	CloseCircleOutlined,
 } from '@ant-design/icons';
-import Select from '@/components/button/select';
+import Select from '../../components/button/select';
 import { setCard, setCardType, setIcon, setIconColor } from './utils/node';
 import { useSlate } from 'slate-react';
 import { iconMap, iconColorList } from './utils/icon';

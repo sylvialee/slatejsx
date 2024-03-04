@@ -15,9 +15,9 @@ import { Editor } from 'slate';
 import { isColorActive, isFormatActive, isLinkActive } from './utils/active';
 import { wrapLink, unWrapLink, insertStar } from './utils/node';
 import { message } from 'antd';
-import Select from '@/components/button/select';
-import Muti from '@/components/button/muti';
-import Single from '@/components/button/single';
+import Select from '../../components/button/select';
+import Muti from '../../components/button/muti';
+import Single from '../../components/button/single';
 import React from 'react';
 
 const backgroundColorList = ['#ffd666', '#ffccc7', '#95de64', '#91d5ff', '#d3adf7', '#bfbfbf'];

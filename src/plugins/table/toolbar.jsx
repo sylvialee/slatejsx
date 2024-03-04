@@ -1,5 +1,5 @@
 import { MergeCellsOutlined, SplitCellsOutlined } from '@ant-design/icons';
-import Single from '@/components/button/single';
+import Single from '../../components/button/single';
 import { useSlate } from 'slate-react';
 import { mergeCells, splitCells } from './utils/node';
 import React from 'react';

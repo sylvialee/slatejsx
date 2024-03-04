@@ -2,7 +2,7 @@ import { Popover, Button } from 'antd';
 import { TableOutlined } from '@ant-design/icons';
 import { setTable } from './utils/node';
 import { useSlate } from 'slate-react';
-import TableInput from '@/components/table-input';
+import TableInput from '../../components/table-input';
 import { useState } from 'react';
 import React from 'react';
 

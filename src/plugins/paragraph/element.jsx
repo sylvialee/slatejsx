@@ -15,8 +15,8 @@ import {
 } from './utils/node'
 import { Tooltip, Input, message, Rate } from 'antd'
 import isUrl from 'is-url'
-import Single from '@/components/button/single'
-import Select from '@/components/button/select'
+import Single from '../../components/button/single'
+import Select from '../../components/button/select'
 
 const IndentationText = (props) => {
   // children 主要文本内容

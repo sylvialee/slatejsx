@@ -7,10 +7,10 @@ import {
 	MinusCircleOutlined,
 	PlusCircleOutlined,
 } from '@ant-design/icons';
-import Select from '@/components/button/select';
+import Select from '../../components/button/select';
 import { setImage, setTextAlign, setWidth } from './utils/node';
 import { useSlate } from 'slate-react';
-import Single from '@/components/button/single';
+import Single from '../../components/button/single';
 import { useState } from 'react';
 import isUrl from 'is-url';
 import imageExtensions from 'image-extensions';

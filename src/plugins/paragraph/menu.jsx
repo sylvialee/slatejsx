@@ -1,4 +1,4 @@
-import Select from '@/components/button/select';
+import Select from '../../components/button/select';
 import { useSlate } from 'slate-react';
 import { setTitle, setTextAlign, setQuote, setList, setListOrder } from './utils/node';
 import {
