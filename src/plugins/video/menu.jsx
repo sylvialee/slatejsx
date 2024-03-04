@@ -13,7 +13,7 @@ import { useSlate } from 'slate-react';
 import Single from '../../components/button/single';
 import { useState } from 'react';
 import isUrl from 'is-url';
-import imageExtensions from 'image-extensions';
+import imageExtensions from '../../util/imgExt';
 import React from 'react';
 
 // 判断是不是图片链接
